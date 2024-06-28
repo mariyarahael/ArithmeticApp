@@ -1,0 +1,50 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:padding="50px"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100px"
+        android:text="MENU"
+        android:textSize="20pt"
+        android:textColor="#E0346F"
+        android:textAlignment="center"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E98DAD"
+        android:text="LARGEST NUMBER"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_margin="10px"
+        android:id="@+id/large"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDADC3"
+        android:text="SMALLEST NUMBER"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_margin="10px"
+        android:id="@+id/small"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E98DAD"
+        android:text="CHECK EVEN OR ODD"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:layout_margin="10px"
+        android:id="@+id/eoro"/>
+
+
+</LinearLayout>
